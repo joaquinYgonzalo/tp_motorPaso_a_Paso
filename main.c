@@ -13,25 +13,25 @@ int main(){
             do{
                 if(cant_pasos<pasos){
                     cant_pasos =pasos-cant_pasos;
-                }else if (pasos =1){
+                }else if (pasos==1){
                     PTA->PSOR|=(1u<<1);
                     PTA->PSOR|=(1u<<2);
                     PTA->PSOR|=(0u<<3);
                     PTA->PSOR|=(0u<<4);
                     cant_pasos ++;
-                }else if (pasos =2){
+                }else if (pasos==2){
                     PTA->PSOR|=(0u<<1);
                     PTA->PSOR|=(1u<<2);
                     PTA->PSOR|=(1u<<3);
                     PTA->PSOR|=(0u<<4);
                     cant_pasos ++;
-                }else if (pasos =3){
+                }else if (pasos==3){
                     PTA->PSOR|=(0u<<1);
                     PTA->PSOR|=(0u<<2);
                     PTA->PSOR|=(1u<<3);
                     PTA->PSOR|=(1u<<4);
                     cant_pasos ++;
-                }else if (pasos =4){
+                }else if (pasos==4){
                     PTA->PSOR|=(1u<<1);
                     PTA->PSOR|=(0u<<2);
                     PTA->PSOR|=(0u<<3);
@@ -44,25 +44,25 @@ int main(){
             do{
                 if(cant_pasos<pasos){
                     cant_pasos = pasos-cant_pasos;
-                }else if (pasos =1){
+                }else if (pasos==1){
                     PTA->PSOR|=(1u<<1);
                     PTA->PSOR|=(0u<<2);
                     PTA->PSOR|=(0u<<3);
                     PTA->PSOR|=(0u<<4);
                     cant_pasos ++;
-                }else if (pasos =2){
+                }else if (pasos==2){
                     PTA->PSOR|=(0u<<1);
                     PTA->PSOR|=(1u<<2);
                     PTA->PSOR|=(0u<<3);
                     PTA->PSOR|=(0u<<4);
                     cant_pasos ++;
-                }else if (pasos =3){
+                }else if (pasos==3){
                     PTA->PSOR|=(0u<<1);
                     PTA->PSOR|=(0u<<2);
                     PTA->PSOR|=(1u<<3);
                     PTA->PSOR|=(0u<<4);
                     cant_pasos ++;
-                }else if (pasos 4){
+                }else if (pasos==4){
                     PTA->PSOR|=(0u<<1);
                     PTA->PSOR|=(0u<<2);
                     PTA->PSOR|=(0u<<3);
@@ -75,26 +75,26 @@ int main(){
             do{
                 if (cant_pasos<pasos){
                     cant_pasos=pasos-cant_pasos;
-                }else if (pasos =1){
+                }else if (pasos==1){
                     PTA->PSOR|=(1u<<1);
                     PTA->PSOR|=(0u<<2);
                     PTA->PSOR|=(0u<<3);
                     PTA->PSOR|=(0u<<4);
                     cant_pasos ++;
-                }else if (pasos =2){
+                }else if (pasos==2){
                     PTA->PSOR|=(1u<<1);
                     PTA->PSOR|=(1u<<2);
                     PTA->PSOR|=(0u<<3);
                     PTA->PSOR|=(0u<<4);
                     cant_pasos ++;
                 }
-                else if (pasos =3){
+                else if (pasos==3){
                     PTA->PSOR|=(0u<<1);
                     PTA->PSOR|=(1u<<2);
                     PTA->PSOR|=(0u<<3);
                     PTA->PSOR|=(0u<<4);
                     cant_pasos ++;
-                }else if (pasos =4){
+                }else if (pasos==4){
                     PTA->PSOR|=(0u<<1);
                     PTA->PSOR|=(1u<<2);
                     PTA->PSOR|=(1u<<3);

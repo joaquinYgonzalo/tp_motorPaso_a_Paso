@@ -1,4 +1,4 @@
-#ifdef pasos_h
+#ifndef pasos_h
 #define pasos_h
 void N(void PasoNormal);
 void C(void PasoCompleto);

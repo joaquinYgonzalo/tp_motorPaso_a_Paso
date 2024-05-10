@@ -1,4 +1,4 @@
-#ifdef motorPaso_h
+#ifndef motorPaso_h
 #define motorPaso_h
 void MedioPaso (int pasos);
 void PasoCompleto(int pasos);
